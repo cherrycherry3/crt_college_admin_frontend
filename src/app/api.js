@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "http://18.61.85.249:8000";
 
 export async function apiRequest(endpoint, method = "GET", body = null) {
   const token = localStorage.getItem("access_token");
